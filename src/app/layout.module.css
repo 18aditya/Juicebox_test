@@ -1,0 +1,14 @@
+.header {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 67.5px;
+  height: 86px;
+  margin-top: 46px;
+
+  .headerItem:nth-child(1) {
+    display: none;
+  }
+}

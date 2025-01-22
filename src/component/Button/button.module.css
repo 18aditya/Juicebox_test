@@ -1,0 +1,31 @@
+.main {
+  width: 350px;
+  height: 60px;
+  padding: 24px;
+  border-radius: 19px;
+  border: 0px;
+  background: var(--Brand-Colours-Primary-Colours-light, #cdaaff);
+  box-shadow: 0px 0px 0px 0px #ffffff57;
+  cursor: pointer;
+}
+
+.secondary {
+  width: 350px;
+  height: 60px;
+  padding: 24px;
+  border: 1px solid var(--Line-line-stroke-medium, #ffffff99);
+  border-radius: 19px;
+  background: var(--Brand-Colours-Primary-Colours-light, #00000000);
+  cursor: pointer;
+}
+
+.tertiary {
+  width: 350px;
+  height: 60px;
+  padding: 24px;
+  border: 1px solid var(--Line-line-stroke-medium, #ffffff99);
+  border-radius: 19px;
+  background: var(--Brand-Colours-Primary-Colours-light, #ffffff);
+  color: black;
+  cursor: pointer;
+}

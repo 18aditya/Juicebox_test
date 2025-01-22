@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 20px;
+  padding-inline: 12px;
+  border-radius: 19px;
+  background-color: #ffffff00;
+  width: 100%;
+  border: 1px solid var(--Line-line-stroke-medium, #ffffff99);
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  height: 60px;
+  padding: 24px;
+  background-color: #ffffff00;
+  border: 0px;
+}

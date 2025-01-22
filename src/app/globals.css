@@ -17,8 +17,13 @@ body {
 }
 
 body {
+  background: radial-gradient(
+    94.55% 94.55% at 50% 5.45%,
+    #222737 0%,
+    #0c0d10 100%
+  );
+  min-height: 100svh;
   color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,4 +44,18 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+@font-face {
+  font-family: "SohneButch";
+  src: url("/fonts/Sohne-butch.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bagoss TRIAL";
+  src: url("/fonts/BagossTRIALVF.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
