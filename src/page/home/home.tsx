@@ -61,7 +61,7 @@ export default function Home() {
                         slidesPerView={1}>
                         <SwiperSlide >
                             <div className={styles.caption}>
-                                Compare your thoughts on <span>technology</span> with current industry opinions.
+                                Compare your thoughts on <span className={styles.span}>technology</span> with current industry opinions.
                             </div>
                         </SwiperSlide>
                         <SwiperSlide style={{ paddingInline: '20px' }}>
