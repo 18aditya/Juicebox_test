@@ -1,11 +1,11 @@
 'use client'
 import styles from './header.module.css'
 import { Icon } from '../Icon';
-import { useContext } from 'react';
-import { StateContext } from '@/context/context';
+import { useStateContext } from '@/context/context';
 
 export const Header = () => {
-    const { state } = useContext(StateContext)
+    const { state } = useStateContext()
+
     return (
         <div className={styles.header}>
             {state.screen !== 0 ? <Icon type='back' /> : <div></div>}

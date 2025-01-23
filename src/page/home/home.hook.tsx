@@ -1,12 +1,12 @@
-import { StateContext } from "@/context/context";
-import { useContext, useEffect, useRef, useState } from "react";
+import { useStateContext } from "@/context/context";
+import { useEffect, useRef, useState } from "react";
 import { SwiperClass } from "swiper/react";
 
 import gsap from "gsap";
 
 export default function useHome() {
 
-    const { state, setState } = useContext(StateContext);
+    const { state, setState } = useStateContext()
     const { screen } = state
 
     const [isEnd, setIsEnd] = useState(false);

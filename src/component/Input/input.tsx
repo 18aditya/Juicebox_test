@@ -7,7 +7,7 @@ type Props = {
     value: string;
     onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
     onSubmit: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-    type: string;
+    type?: string;
     title: string;
 };
 

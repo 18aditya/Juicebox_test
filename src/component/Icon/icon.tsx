@@ -1,7 +1,5 @@
 'use client'
 import styles from './icon.module.css'
-import { StateContext } from '@/context/context'
-import { useContext } from 'react'
 
 type props = {
     type: 'refresh' | 'back'
